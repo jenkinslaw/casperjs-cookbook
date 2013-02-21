@@ -7,15 +7,18 @@ Tested on centos 6.3 and ubuntu 12.10
 Requirements
 ------------
 
-#phantomjs - casperjs requires phantomjs .
+## Platform
+Tested on centos 6.3 and ubuntu 12.10
 
+
+## Cookbooks
+
+phantomjs - we used this [phantomjs cookbook](https://github.com/customink-webops/phantomjs) but others exist.  
 
 
 Attributes
 ----------
 
-e.g.
-#### casperjs::default
 <table>
   <tr>
     <th>Key</th>
@@ -33,9 +36,7 @@ e.g.
 
 Usage
 -----
-#### casperjs::default
 
-e.g.
 Just include `casperjs` in your node's `run_list`:
 
 ```json
@@ -49,7 +50,7 @@ Just include `casperjs` in your node's `run_list`:
 
 Contributing
 ------------
-e.g.
+
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write you change
@@ -59,6 +60,19 @@ e.g.
 
 License and Authors
 -------------------
-Authors: Chad Nelson
+Author:: Chad Nelson
+
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 
