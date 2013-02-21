@@ -13,7 +13,7 @@ Tested on centos 6.3 and ubuntu 12.10
 
 ## Cookbooks
 
-phantomjs - we used this [phantomjs cookbook](https://github.com/customink-webops/phantomjs) but others exist.  
+phantomjs - we used this [phantomjs cookbook](https://github.com/jenkinslaw/phantomjs) but others exist.  
 
 
 Attributes
