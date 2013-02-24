@@ -17,4 +17,4 @@
 # limitations under the License.
 #
 include_recipe "phantomjs"
-include_recipe "#{node[:casperjs][:install_method]}"
+include_recipe  node['casperjs']['install_method']
