@@ -24,7 +24,7 @@ include_recipe "phantomjs"
 end
 
 
-basename = "#{node['casperjs']['version']}"
+basename = node['casperjs']['version']
 
 
 remote_file "/usr/local/src/casperjs-#{basename}" do
