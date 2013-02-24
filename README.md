@@ -32,6 +32,12 @@ Attributes
     <td>Versino of casperjs to install</td>
     <td><tt>1.0.2</tt></td>
   </tr>
+  <tr>
+    <td><tt>['casperjs']['install_method']</tt></td>
+    <td>String</td>
+    <td>Choose from the different installation recipes included.</td>
+    <td><tt>package</tt></td>
+  </tr>
 </table>
 
 Usage
@@ -61,6 +67,7 @@ Contributing
 License and Authors
 -------------------
 Author:: Chad Nelson
+Contributor(s):: David Kinzer
 
 
 Licensed under the Apache License, Version 2.0 (the "License");
