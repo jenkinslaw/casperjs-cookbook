@@ -1,4 +1,2 @@
-default['casperjs'] = {
-  'version' => '1.0.2',
-  'install_method' => 'archive',
-}
+default['casperjs']['version'] = '1.0.2'
+default['casperjs']['install_method']  = '1.0.2'
