@@ -16,5 +16,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-include_recipe    "phantomjs"
-include_recipe    "casperjs::#{node['casperjs']['install_method']}"
+include_recipe 'git'
+source_dir = node['casperjs']['git']['source_dir']
+source_url = node['casperjs']['git']['source_url']
+source_ref = node['casperjs']['version']
+
+git "#{source_dir}/casperjs" do
+  repository source_url
+  reference  source_ref
+  action     :checkout
+end
+
+link '/usr/local/bin/casperjs' do
+  to "#{source_dir}/casperjs/rubybin/casperjs"
+end

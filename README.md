@@ -38,6 +38,17 @@ Attributes
     <td>Choose from the different installation recipes included.</td>
     <td><tt>package</tt></td>
   </tr>
+  <tr>
+    <td><tt>['casperjs']['git']['source_dir']</tt></td>
+    <td>String</td>
+    <tdThe root folder for cloning the CasperJs Git Repository.</td>
+    <td><tt>/usr/local/src</tt></td>
+  </tr>
+    <td><tt>['casperjs']['git']['source_url']</tt></td>
+    <td>String</td>
+    <tdThe URL for the CasperJs Git repository.</td>
+    <td><tt>https://github.com/n1k0/casperjs.git</tt></td>
+  </tr>
 </table>
 
 Usage
