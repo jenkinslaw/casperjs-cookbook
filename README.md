@@ -1,4 +1,4 @@
-casperjs Cookbook
+casperjs Cookbook [![Build Status](https://secure.travis-ci.org/jenkinslaw/casperjs-cookbook.png?branch=master)](http://travis-ci.org/jenkinslaw/casperjs-cookbook)  
 =================
 This Chef cookbook will install the precompiled casperjs binary. 
 
