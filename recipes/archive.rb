@@ -31,7 +31,7 @@ remote_file "/usr/local/src/casperjs-#{basename}" do
   action :create_if_missing
   backup false
   mode '0644'
-  source "https://github.com/n1k0/casperjs/archive/#{basename}.zip"
+  source "#{node['casperjs']['archive']['url_prefix']}#{basename}#{node['casperjs']['archive']['url_suffix']}"
 end
 
 

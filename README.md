@@ -39,6 +39,17 @@ Attributes
     <td><tt>package</tt></td>
   </tr>
   <tr>
+    <td><tt>['casperjs']['archive']['url_prefix']</tt></td>
+    <td>String</td>
+    <td>Configure where the archive is downloaded from.</td>
+    <td><tt>https://codeload.github.com/n1k0/casperjs/zip/</tt></td>
+  </tr>
+    <td><tt>['casperjs']['archive']['url_suffix']</tt></td>
+    <td>String</td>
+    <td>Configure where the archive is downloaded from.</td>
+    <td><tt></tt></td>
+  </tr>
+  <tr>
     <td><tt>['casperjs']['git']['source_dir']</tt></td>
     <td>String</td>
     <td>The root folder for cloning the CasperJs Git Repository.</td>

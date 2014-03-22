@@ -24,6 +24,16 @@ attribute 'casperjs/install_method',
   :decsription  => 'Choose from the various install recipes included.',
   :default      => 'package'
 
+attribute 'casperjs/archive/url_prefix',
+  :display_name => 'Archive URL prefix',
+  :description  => 'Configure where the archive is downloaded from.',
+  :default      => 'https://codeload.github.com/n1k0/casperjs/zip/'
+
+attribute 'casperjs/archive/url_suffix',
+  :display_name => 'Archive URL suffix',
+  :description  => 'Configure where the archive is downloaded from.',
+  :default      => ''
+
 attribute 'casperjs/git/source_dir',
   :display_name => 'CasperJs Source Directory',
   :decsription  => 'Where to install the casperjs source repository.',
