@@ -41,6 +41,10 @@ execute 'Install casperjs' do
 end
 
 link '/usr/local/bin/casperjs' do
-  to "/usr/local/casperjs-#{basename}/rubybin/casperjs"
+  if /^[01]\.[01](\.\d|-beta[123])?/.match(basename) then
+    to "/usr/local/casperjs-#{basename}/rubybin/casperjs"
+  else
+    to "/usr/local/casperjs-#{basename}/bin/casperjs"
+  end
 end
 

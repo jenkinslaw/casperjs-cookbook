@@ -28,5 +28,9 @@ git "#{source_dir}/casperjs" do
 end
 
 link '/usr/local/bin/casperjs' do
-  to "#{source_dir}/casperjs/rubybin/casperjs"
+  if /^[01]\.[01](\.\d|-beta[123])?/.match(basename) then
+    to "#{source_dir}/casperjs/rubybin/casperjs"
+  else
+    to "#{source_dir}/casperjs/bin/casperjs"
+  end
 end
