@@ -6,18 +6,18 @@ description      'Installs/Configures casperjs'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.0.1'
 
-recipe 'casperjs::default' , "Choose casperjs install method."
-recipe 'casperjs::archive' , "Install casperjs from archive."
-recipe 'casperjs::git' , "Install casperjs from a Git repository."
+recipe 'casperjs::default' , 'Choose casperjs install method.'
+recipe 'casperjs::archive' , 'Install casperjs from archive.'
+recipe 'casperjs::git' , 'Install casperjs from a Git repository.'
 
-depends "phantomjs"
+depends 'phantomjs'
 depends 'git'
 recommends 'ruby'
 
 attribute 'version',
   :display_name => 'Version',
-  :description  => 'The Version of casperjs to install',
-  :default      => '1.0.2'
+  :decsription  => 'The Version of casperjs to install',
+  :default      => '1.1-beta3'
 
 attribute 'casperjs/install_method',
   :display_name => 'Install Method',
@@ -43,4 +43,3 @@ attribute 'casperjs/git/source_url',
   :display_name => 'CasperJs Git Repo URL',
   :description  => 'The URL for the CasperJs repository.',
   :default      => 'https://github.com/n1k0/casperjs.git'
-
