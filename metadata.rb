@@ -16,12 +16,12 @@ recommends 'ruby'
 
 attribute 'version',
   :display_name => 'Version',
-  :decsription  => 'The Version of casperjs to install',
+  :description  => 'The Version of casperjs to install',
   :default      => '1.0.2'
 
 attribute 'casperjs/install_method',
   :display_name => 'Install Method',
-  :decsription  => 'Choose from the various install recipes included.',
+  :description  => 'Choose from the various install recipes included.',
   :default      => 'package'
 
 attribute 'casperjs/archive/url_prefix',
@@ -36,11 +36,11 @@ attribute 'casperjs/archive/url_suffix',
 
 attribute 'casperjs/git/source_dir',
   :display_name => 'CasperJs Source Directory',
-  :decsription  => 'Where to install the casperjs source repository.',
+  :description  => 'Where to install the casperjs source repository.',
   :default      => '/usr/local/src'
 
 attribute 'casperjs/git/source_url',
   :display_name => 'CasperJs Git Repo URL',
-  :decsription  => 'The URL for the CasperJs repository.',
+  :description  => 'The URL for the CasperJs repository.',
   :default      => 'https://github.com/n1k0/casperjs.git'
 
