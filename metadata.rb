@@ -17,7 +17,7 @@ recommends 'ruby'
 attribute 'version',
   :display_name => 'Version',
   :decsription  => 'The Version of casperjs to install',
-  :default      => '1.0.2'
+  :default      => '1.1-beta3'
 
 attribute 'casperjs/install_method',
   :display_name => 'Install Method',
